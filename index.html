@@ -9,16 +9,26 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
 
   <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
   <link rel="stylesheet" href="css/styles.css">
 
   <!-- Font Awesome -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/fontawesome.min.css"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- <link rel="icon" href="/img/favicon.png" type="image/png"> -->
+  <!-- <a href="https://icons8.com/icon/04OFrkjznvcd/android-studio">Android Studio icon by Icons8</a> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
   <!-- Bootstrap Scripts -->
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -39,18 +49,22 @@
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ml-auto" "nav-color">
             <li class="nav-item">
-              <a class="nav-link" href="#footer">Contact</a>
+              <a class="nav-link" style="color: #343f56" href="#footer"><i class="fas fa-envelope"></i> Contact</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#pricing">Education</a>
+              <a class="nav-link" style="color: #343f56" href="#pricing"><span class="iconify" data-icon="carbon:education" data-width="35" data-height="25"></span> Education</a>
+
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#features">Projects</a>
+              <a class="nav-link" style="color: #343f56" href="#features"><i class="fas fa-code"></i>Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#cta">Skills</a>
+              <a class="nav-link" style="color: #343f56" href="#skills"><span class="iconify" data-icon="fa-solid:tools" data-width="30" data-height="20"></span> Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="color: #343f56" href="#work"><span class="iconify" data-icon="dashicons:portfolio" data-width="35" data-height="25"></span> Worksample</a>
             </li>
           </ul>
 
@@ -63,8 +77,10 @@
       <div class="row">
 
         <div class="col-lg-6 objective">
-          <h5 class="big-heading"> Student at Dayananda Sagar Academy of Technology and Management </a> </h5>
-          <p class="intro"> A techie-geek highly motivated by the improvement of current IT sector. I lead a disciplined yet a fun life and my strengths being positive thinking and working to perfection. I highly believe in connectivity and team work-two aspects necesarry for any group project and increased productivity.</p>
+        
+          <h5 class="big-heading"> Aspiring Developer </a> </h5>
+          <p class="intro"> A Goal Oriented CS Undergrad , As a techie-geek highly motivated by the improvement of current IT sector. I lead a disciplined yet a fun life and my strengths being positive thinking and working to perfection. I highly believe in connectivity and team work-two aspects necesarry for any group project and increased productivity.</p>
+          <a href="https://drive.google.com/file/d/1UQNZbUtAn-QyQ9Nlx3gSRmbG6eMlbsLg/view?usp=sharing"> <button type="button" class="btn btn-dark btn-lg download-button">  <i class="fas fa-file"></i> Resume </button></a>
 
         </div>
 
@@ -77,9 +93,6 @@
     </div>
 
   </section>
-
-
-
   <!-- Pricing -->
 
   <section class="white-section" id="pricing">
@@ -96,10 +109,8 @@
           <div class="card-body">
             <p>Institution: Dayananda Sagar Academy of Technology and Management
 </p>
-            <p>Visvesvaraya
-Technological
-University</p>
-            <p>Duration 2018-22</p>
+    <p>Visvesvaraya Technological University</p>
+            <p>CGPA- 8.63  Duration 2018-22</p>
 
           </div>
         </div>
@@ -115,7 +126,7 @@ University</p>
             <p>Institution: Delhi Public School Bikaner,
               Rajasthan</p>
             <p>CBSE Board</p>
-            <p>Duration 2017-18</p>
+            <p>Percentage: 78%  Duration 2017-18</p>
           </div>
         </div>
       </div>
@@ -129,7 +140,7 @@ University</p>
 
             <p>Institution: Seth Tolaram Bafna Academy,Bikaner, Rajasthan</p>
             <p>CBSE Board</p>
-            <p>Duration: 2015-16</p>
+            <p>Percentage: 93.1%  Duration: 2015-16</p>
           </div>
         </div>
       </div>
@@ -140,56 +151,124 @@ University</p>
 
   </section>
 
-  <!-- Features -->
 
-  <section class="white-section" id="features">
 
-  <h2 class="section-heading"> Projects </h2>
+<section class="project" id="features">
+
+<h2 class="section-heading"> Projects </h2>
+<div class="banner_section">
+			<div class="container-fluid">
+				<section class="slide-wrapper">
     <div class="container-fluid">
+	    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
 
-      <div class="row">
-        <div class="feature-box col-lg-4">
-          <i class="icon fas fa-check-circle fa-4x"></i>
-          <h3 class="feature-title"> DSATM Assistant | Chatbot</h3>
-          <p> A preliminary college chatbot catering to the needs of all students made on dialogFlow using
-firebase as database
-.</p>
+            <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+
+          <h3 class="mens_text"><strong>DSATM Assistant - Chatbot</strong></h3>
+          <p class="intro">A preliminary college chatbot catering to the needs of all students made on dialogFlow using
+firebase as database.This project was selected for <strong>Regional Mentoring Session conducted by MHRD</strong></p>
+
+          <img src="images/chatbot.JPG" alt="lady-profile">
+          <!-- <em>Beverly, Illinois</em> -->
+  </div>
+         <div class="carousel-item container-fluid">
+           <h3 class="mens_text"><strong>GPS NOTIFIER - Android App</strong></h3>
+           <p class="intro">A GPS based Notification Mobile app made on Android Studio and Firebase as database Using Google Maps Api </p>
+            <img src="images/GPS.jpeg" alt="dog-profile">
+          <!-- <em>Pebbles, New York</em> -->
+        </div>
+        <div class="carousel-item container-fluid">
+          <h3 class="mens_text"><strong>Eventshala - Website</strong></h3>
+          <p class="intro">A website serving the functionality of an event manager of an organization developed using NodeJs along with express and MySQL as a database.</p>
+
+          <img src="images/evemt.jpg" alt="lady-profile">
+          <!-- <em>Beverly, Illinois</em> -->
         </div>
 
-        <div class="feature-box col-lg-4">
-    <i class="icon fas fa-check-circle fa-4x"></i>
-          <h3 class="feature-title">GPS Notifier | Android App </h3>
-          <p> This is GPS based Notification Mobile app .
-          Using Android Studio,Firebase,Google Maps
-          Api </p>
-        </div>
-
-        <div class="feature-box col-lg-4">
-        <i class="icon fas fa-check-circle fa-4x"></i>
-          <h3 class="feature-title">Eventshala | Web App</h3>
-          <p>A website serving the functionality of an event manager of an organization developed using
-NodeJs along with express and MySQL as a database.
-</p>
+        <div class="carousel-item container-fluid">
+          <h3 class="mens_text"><strong>Vending Machine - REST API</strong></h3>
+          <p class="intro">A production level API developed using NodeJs along with express and MongoDB to implement the
+  functionality of a product vending machine involving transactions</p>
+          <img src="images/vending.jpg" alt="lady-profile">
+          <!-- <em>Beverly, Illinois</em> -->
         </div>
       </div>
-</div>
-  </section>
-
-
-  <!-- Call to Action -->
-
-  <section class="colored-section" id="cta">
-  <h2 class="section-heading"> Skills </h2>
-    <div class="Skill-fluid">
-        <ul>
-          <li>Languages- C/C++, Basic Java, SQL, HTML, CSS and JavaScript</li>
-          <li>Frameworks- Express, Bootstrap, NodeJs, EJS</li>
-          <li>Databases- Firebase, MySql , MongoDB</li>
-          <li>Software and tools- Android Studio, Github, DialogFlow </li>
-        </ul>
+            </div>
+          </section>
+        </div>
     </div>
   </section>
 
+
+
+
+  <!-- Features -->
+
+
+  <section class="white-section" id="work">
+  <h2 class="section-heading"> My Work </h2>
+     <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-3">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">DSATM Assistant</h3>
+
+  <a href="https://drive.google.com/file/d/1PgbqCDkZ2grqqbMZoMYTd1yTra5wYfUy/view?usp=sharing"> <button type="button" class="btn btn-dark btn-lg download-button">  <i class="fas fa-external-link-alt"></i> MHRD Presentation</button></a>
+
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">GPS Notifier</h3>
+<a href="https://drive.google.com/file/d/1CQ8-epuAzUGlhRvFgst5sz4g3DXAxAeK/view?usp=sharing"> <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-youtube"></i> Demo</button></a>
+        </div>
+        <div class="feature-box col-lg-3">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Eventshala</h3>
+      <a href="https://github.com/gunjanjaju01/EventManagement"> <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-github"></i> Code</button></a>
+        </div>
+        <div class="feature-box col-lg-3">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+
+          <h3 class="feature-title">Vending Machine</h3>
+      <a href="https://github.com/TeamSlytherin/VendingMachineAPI"> <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-github"></i> Code</button></a>
+        </div>
+      </div>
+  </div>
+  </section>
+
+  <section id="skills" class="skills">
+        <div class="container wow animate__animated animate__fadeIn">
+          <h2 class="section-heading">My Skills</h2>
+          <ul class="skills-icons">
+
+            <li><span class="iconify" data-icon="logos:java" data-inline="false" data-width="70px" data-height="70px"></span><span>Java</span></li>
+            <li><span class="iconify" data-icon="logos:c" data-inline="false" data-width="70px" data-height="70px"></span><span>C</span></li>
+            <li><span class="iconify" data-icon="vscode-icons:file-type-html" data-inline="false" data-width="70px" data-height="70px"></span><span>HTML</span></li>
+            <li><span class="iconify" data-icon="vscode-icons:file-type-css" data-inline="false" data-width="70px" data-height="70px"></span><span>CSS</span></li>
+            <li><span class="iconify" data-icon="logos:react" data-inline="false" data-width="70px" data-height="70px"></span><span>React</span></li>
+            <li><span class="iconify" data-icon="logos:nodejs-icon" data-inline="false" data-width="70px" data-height="70px"></span><span>Node.js</span></li>
+            <li><span class="iconify" data-icon="logos:javascript" data-inline="false" data-width="70px" data-height="70px"></span><span>JavaScript</span></li>
+            <li><span class="iconify" data-icon="fa:android" style="color: #6ecb63"data-inline="false" data-width="70px" data-height="70px"></span><span>Android</span></li>
+            <li><span class="iconify" data-icon="logos:git-icon" data-inline="false" data-width="70px" data-height="70px"></span><span>Git</span></li>
+            <li><span class="iconify" data-icon="logos:bootstrap" data-inline="false" data-width="70px" data-height="70px"></span><span>Bootstrap</span></li>
+            <li><span class="iconify" data-icon="logos:mysql" data-inline="false" data-width="70" data-height="70"></span><span>MySQL</span></li>
+            <li><span class="iconify" data-icon="simple-icons:mongodb" style="color: #6ecb63" data-inline="false" data-width="70" data-height="70"></span><span>MongoDB</span></li>
+            <li><span class="iconify white-image" data-icon="logos:dialogflow"  data-inline="false" data-width="70" data-height="70"></span><span>DialogFlow</span></li>
+            <li><span class="iconify" data-icon="logos:firebase" data-inline="false" data-width="70" data-height="70"></span><span>Firebase</span></li>
+          </ul>
+        </div>
+      </section>
 
   <!-- Footer -->
 
